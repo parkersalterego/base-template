@@ -1,0 +1,125 @@
+html, body {
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  background-color:#000000;
+}
+
+// colors
+.primary-color{
+  color:$primary-color;
+}
+
+.secondary-color{
+  color:$secondary-color;
+}
+
+// bg colors
+.primary-bg-color{
+  background-color:$primary-color;
+}
+
+.secondary-bg-color{
+  background-color:$secondary-color;
+}
+
+// heights
+.xs-height{
+  height:$xs-height;
+}
+
+.sm-height{
+  height:$sm-height;
+}
+
+.md-height{
+  height:$md-height;
+}
+
+.lg-height{
+  height:$lg-height;
+}
+
+.xl-height{
+  height:$xl-height;
+}
+
+// font size
+.xs-font{
+  font-size:$xs-font;
+}
+
+.sm-font{
+  font-size:$sm-font;
+}
+
+.md-font{
+  font-size:$md-font;
+}
+
+.lg-font{
+  font-size:$lg-font;
+}
+
+.xl-font{
+  font-size:$xl-font;
+}
+
+// flex box properties
+.fill{
+  height:100%;
+  width:100%;
+}
+
+.flex {
+  display:flex;
+}
+
+.flex-row{
+  flex-direction:row;
+}
+
+.flex-column{
+  flex-direction:column;
+}
+
+.justify-start{
+  justify-content:flex-start
+}
+
+.justify-end{
+  justify-content:flex-end;
+}
+
+.justify-center{
+  justify-content:center;
+}
+
+.justify-space-around{
+  justify-content:space-around;
+}
+
+.justify-space-between{
+  justify-content:space-between;
+}
+
+.align-start {
+  align-items:flex-start;
+}
+
+.align-end {
+  align-items:flex-end;
+}
+
+.align-center {
+  align-items:center;
+}
+
+.align-space-around {
+  align-items:space-around;
+}
+
+.align-space-between {
+  align-items:space-between;
+}
