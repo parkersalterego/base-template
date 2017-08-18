@@ -3,27 +3,29 @@ html, body {
   width:100%;
   margin:0px;
   padding:0px;
-  background-color:#000000;
 }
 
+// --------------------------------------
 // colors
 .primary-color{
-  color:$primary-color;
+  color:$black;
 }
 
 .secondary-color{
-  color:$secondary-color;
+  color:$white;
 }
 
+// -----------------------------------------
 // bg colors
 .primary-bg-color{
-  background-color:$primary-color;
+  background-color:$black;
 }
 
 .secondary-bg-color{
-  background-color:$secondary-color;
+  background-color:$white;
 }
 
+// --------------------------------------
 // heights
 .xs-height{
   height:$xs-height;
@@ -45,6 +47,16 @@ html, body {
   height:$xl-height;
 }
 
+.full-vh{
+  height:100vh;
+}
+
+// ----------------------------------------
+// fonts
+.pink-floyd {
+  font-family:'pink-floyd', 'cursive';
+}
+// ------------------------------------------
 // font size
 .xs-font{
   font-size:$xs-font;
@@ -66,6 +78,32 @@ html, body {
   font-size:$xl-font;
 }
 
+.xxl-font {
+  font-size:$xxl-font;
+}
+// --------------------------------------------
+// display properties
+.display-block{
+  display:block;
+}
+
+.display-inline-block{
+  display:inline-block;
+}
+
+.display-none{
+  display:none;
+}
+
+// -----------------------------------------
+// margin / padding adjust
+.margin-null{
+  margin:0;
+}
+.padding-null{
+  padding:0;
+}
+// -----------------------------------------
 // flex box properties
 .fill{
   height:100%;
@@ -122,4 +160,51 @@ html, body {
 
 .align-space-between {
   align-items:space-between;
+}
+
+// --------------------------------
+// position properties
+.position-relative{
+  position:relative;
+}
+
+.position-fixed{
+  position:fixed;
+}
+
+.position-absolute{
+  position:absolute;
+}
+
+.top-0{
+  top:0px;
+}
+
+.bottom-0{
+  bottom:0px;
+}
+
+.left-0{
+  left:0px;
+}
+
+.right-0{
+  right:0px;
+}
+
+// ----------------------------------------------
+// image properrties
+.img-fill {
+  background-size:cover;
+  background-position:center;
+}
+
+.attatchment-fixed {
+  background-attachment: fixed;
+}
+
+// ---------------------------------------------
+//  visibility
+.hidden{
+  visibility:hidden;
 }
